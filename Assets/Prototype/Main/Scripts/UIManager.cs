@@ -9,6 +9,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Text ScoreText;
     [SerializeField] private Text HealthText;
 
+    [SerializeField] private Button menuButton;
+    [SerializeField] private Button closemenuButton;
+    [SerializeField] private GameObject popupMenu;
+
     [SerializeField] private GameManager gameManager;
 
 
@@ -28,6 +32,15 @@ public class UIManager : MonoBehaviour
         HealthText.text = health.ToString();
     }
 
+    public void OnClickMenuButton()
+    {
+        popupMenu.SetActive(true);
+    }
+
+    public void OnClickClosemenuButton()
+    {
+        popupMenu.SetActive(false);
+    }
 
 
 }

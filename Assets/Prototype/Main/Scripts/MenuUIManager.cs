@@ -9,10 +9,7 @@ public class MenuUIManager : MonoBehaviour
     public Animator contentPanel;
     public Animator gearImage;
 
-    private void Start()
-    {
-        
-    }
+   
     public void ToggleMenu()
     {
         int hide = contentPanel.GetInteger("isHide");

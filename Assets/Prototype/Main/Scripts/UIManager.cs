@@ -15,6 +15,7 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private GameManager gameManager;
 
+    [SerializeField] private Image picture;
 
     private void Start()
     {

@@ -18,15 +18,24 @@ public class ImgSucsess : MonoBehaviour
 
     [SerializeField] private GameManager gameManager;
 
+    [SerializeField] private Image picture;
 
+    [SerializeField] private Sprite [] spriteToChangeItTo;
+
+    [SerializeField] private int indexSprite = 0;
     //private ListsInList listsInList;
 
     private void Start()
     {
         //listsInList = GetComponent<ListsInList>();
+        //typeNikudButton = GetComponent<TypeNikudButton>();
+          letterPress = 0;
+        //monky.gameObject.GetComponent<Renderer>().material = Catches;
 
-        letterPress = 0;
-    }
+        picture.sprite = spriteToChangeItTo[indexSprite];
+        
+     }
+
     private void Update()
     {
        if (typeNikudButton.IsClicked == true)
@@ -35,19 +44,21 @@ public class ImgSucsess : MonoBehaviour
             typeNikudButton.IsClicked = false;
             
        }
-    }
-   
 
-    public void AfterClick()
+      
+    }
+
+   
+            public void AfterClick()
     {
         if (letters[letterPress] == typeNikudButton.IndexButtonCliced && nikud[letterPress] == nikudButtons.IndexNikudCliced)
         {
             Debug.Log("sucsess");
-            
+
             if (letterPress + 2 <= letters.Length)
             {
                 letterPress++;
-               
+
             }
 
             else
@@ -55,7 +66,9 @@ public class ImgSucsess : MonoBehaviour
                 letterPress = 0;
                 Debug.Log("sucsess word");
                 gameManager.Score += 1;
-
+               
+                indexSprite++;
+                picture.gameObject.GetComponent<Image>().sprite = spriteToChangeItTo[indexSprite];
             }
         }
 

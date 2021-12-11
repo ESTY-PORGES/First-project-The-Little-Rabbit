@@ -1865,20 +1865,15 @@ RectTransform:
   m_GameObject: {fileID: 271730415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7.3, y: 6.37, z: 9.9}
+  m_LocalScale: {x: 9.9, y: 9.9, z: 9.9}
   m_Children: []
   m_Father: {fileID: 755077743}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 957.1, y: 548}
   m_SizeDelta: {x: 205.7, y: 113.1}
-=======
-  m_AnchoredPosition: {x: 954.6, y: 375.1}
-  m_SizeDelta: {x: 203.7, y: 110.5}
->>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &271730417
 MonoBehaviour:
@@ -1899,11 +1894,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: 79971ffa4dc2da44481adda574730195, type: 3}
-=======
-  m_Sprite: {fileID: 21300000, guid: 5ddb6e3daf8fc1d4f9b85cc162b3a386, type: 3}
->>>>>>> Stashed changes
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2532,80 +2523,6 @@ Transform:
   m_Father: {fileID: 639514495}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &356648536
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 356648537}
-  - component: {fileID: 356648539}
-  - component: {fileID: 356648538}
-  m_Layer: 5
-  m_Name: baseForPicture
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &356648537
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 356648536}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 4.3, z: 9.9}
-  m_Children: []
-  m_Father: {fileID: 755077743}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 954.6, y: 750.9}
-  m_SizeDelta: {x: 203.7, y: 110.5}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &356648538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 356648536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 807b268c41c5f8a439e05a2395d18220, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &356648539
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 356648536}
-  m_CullTransparentMesh: 0
 --- !u!1 &365663342
 GameObject:
   m_ObjectHideFlags: 0
@@ -10551,11 +10468,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1168737868}
-<<<<<<< Updated upstream
   - {fileID: 1207788455}
-=======
-  - {fileID: 356648537}
->>>>>>> Stashed changes
   - {fileID: 314123889}
   - {fileID: 271730416}
   m_Father: {fileID: 639514495}
@@ -12367,13 +12280,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 405, y: 666.3}
   m_SizeDelta: {x: 94.1, y: 89.5}
-=======
-  m_AnchoredPosition: {x: 407.9, y: 668}
-  m_SizeDelta: {x: 97.6, y: 89.5}
->>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1129494289
 MonoBehaviour:
@@ -13277,13 +13185,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 1502.5, y: 666}
   m_SizeDelta: {x: 95.6, y: 91.4}
-=======
-  m_AnchoredPosition: {x: 1499.6, y: 668}
-  m_SizeDelta: {x: 97.6, y: 91.4}
->>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1277309157
 MonoBehaviour:
@@ -14005,13 +13908,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 1283, y: 667}
   m_SizeDelta: {x: 97, y: 91.4}
-=======
-  m_AnchoredPosition: {x: 1280.6, y: 668}
-  m_SizeDelta: {x: 97.6, y: 91.4}
->>>>>>> Stashed changes
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1328307406
 MonoBehaviour:
@@ -15521,11 +15419,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 843, y: 666.2}
-=======
-  m_AnchoredPosition: {x: 843.4, y: 668}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 97.6, y: 91.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1521842646
@@ -16790,11 +16684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   m_AnchoredPosition: {x: 1063, y: 667}
-=======
-  m_AnchoredPosition: {x: 1064.2, y: 668}
->>>>>>> Stashed changes
   m_SizeDelta: {x: 97.6, y: 91.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1782257277
@@ -18464,16 +18354,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55b23ce4e50b823469acc6af3866cf7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letters: 100000001300000016000000
-  nikud: 040000000400000001000000
-  typeNikudButton: {fileID: 1311251666}
+  letters: 000000000000000000000000
+  nikud: 000000000000000000000000
+  typeNikudButton: {fileID: 1712664520}
   nikudButtons: {fileID: 558210573}
   gameManager: {fileID: 1489521904}
   picture: {fileID: 314123890}
   spriteToChangeItTo:
+  - {fileID: 21300000, guid: 4815f229b6311f34b8eb6603d1472b1b, type: 3}
   - {fileID: 21300000, guid: 79a03f4384167524fb6ab18c94e25062, type: 3}
-  - {fileID: 21300000, guid: b71572a71dbd74447899340da1a13512, type: 3}
-  - {fileID: 21300000, guid: 57df36f67f34c7248961a4f9636928ae, type: 3}
+  - {fileID: 21300000, guid: 9ad7ef3f3ace3cf49b76b22bb8d19c12, type: 3}
   indexSprite: 0
 --- !u!4 &2019678050
 Transform:
@@ -19088,12 +18978,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 755077743}
     m_Modifications:
-    - target: {fileID: 4777019057482132057, guid: 6efc8eaae33ca01448d7f2d3f08469ef,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 79a03f4384167524fb6ab18c94e25062,
-        type: 3}
     - target: {fileID: 4777019057482132058, guid: 6efc8eaae33ca01448d7f2d3f08469ef,
         type: 3}
       propertyPath: m_Pivot.x
@@ -19177,20 +19061,12 @@ PrefabInstance:
     - target: {fileID: 4777019057482132058, guid: 6efc8eaae33ca01448d7f2d3f08469ef,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-<<<<<<< Updated upstream
       value: 960
-=======
-      value: 946
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4777019057482132058, guid: 6efc8eaae33ca01448d7f2d3f08469ef,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-<<<<<<< Updated upstream
       value: 796.6
-=======
-      value: 799.6
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4777019057482132058, guid: 6efc8eaae33ca01448d7f2d3f08469ef,
         type: 3}

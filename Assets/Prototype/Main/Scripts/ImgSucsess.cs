@@ -30,7 +30,6 @@ public class ImgSucsess : MonoBehaviour
         //listsInList = GetComponent<ListsInList>();
         //typeNikudButton = GetComponent<TypeNikudButton>();
           letterPress = 0;
-        //monky.gameObject.GetComponent<Renderer>().material = Catches;
 
         picture.sprite = spriteToChangeItTo[indexSprite];
         
@@ -64,6 +63,7 @@ public class ImgSucsess : MonoBehaviour
             else
             {
                 letterPress = 0;
+                gameManager.Health = 3;
                 Debug.Log("sucsess word");
                 gameManager.Score += 1;
                

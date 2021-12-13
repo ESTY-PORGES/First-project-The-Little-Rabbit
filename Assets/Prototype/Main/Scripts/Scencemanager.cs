@@ -1,18 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Scencemanager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    [SerializeField] private GameManager gameManager;
+    private void Start()
     {
-        
+        gameManager.OnHealseDone += LoadGameOverScence;
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void LoadGameOverScence()
     {
-        
+        SceneManager.LoadScene(2);
     }
 }

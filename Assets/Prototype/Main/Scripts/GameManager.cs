@@ -1,20 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
     private int score;
 
-    private int health = 3;
-
+    private int health = 0;
 
     //public UnityAction OnAllItemCollected;
     public UnityAction<int> OnScoreChanged;
     public UnityAction<int> OnWrongClick;
- 
+    public UnityAction OnHealseDone;
+
     //public UnityAction OnPlayerDeath;
 
 
@@ -45,9 +44,9 @@ public class GameManager : MonoBehaviour
         {
             health = value;
             OnWrongClick?.Invoke(health);
-            if (health <= 0)
+            if (health >= 3)
             {
-                SceneManager.LoadScene(2);
+                OnHealseDone?.Invoke();
                 Debug.Log("game over");
             }
 

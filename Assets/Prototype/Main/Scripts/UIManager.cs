@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 using UnityEngine.EventSystems;
 
 public class UIManager : MonoBehaviour
@@ -13,6 +14,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button closemenuButton;
     [SerializeField] private GameObject popupMenu;
 
+    [SerializeField] private Slider slider;
+
+    [SerializeField] private AudioMixer audioMixer;
+
     [SerializeField] private GameManager gameManager;
 
     [SerializeField] private Image picture;
@@ -20,7 +25,7 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         gameManager.OnScoreChanged += ChangeScoreText;
-        gameManager.OnWrongClick += ChangeHealthText;
+        gameManager.OnWrongClick += SetHaelthSlider;
     }
     
     private void ChangeScoreText(int score)
@@ -28,10 +33,14 @@ public class UIManager : MonoBehaviour
         ScoreText.text = score.ToString();
     }
 
-    private void ChangeHealthText(int health)
+
+    private void SetHaelthSlider(int health)
     {
-        HealthText.text = health.ToString();
+        slider.value = health;
+ 
     }
+
+    
 
     public void OnClickMenuButton()
     {
@@ -42,6 +51,12 @@ public class UIManager : MonoBehaviour
     {
         popupMenu.SetActive(false);
     }
+
+    public void SetVolume(float volume)
+    {
+        audioMixer.SetFloat("volume", volume);
+    }
+
 
 
 }

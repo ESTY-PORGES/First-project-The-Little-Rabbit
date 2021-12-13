@@ -63,7 +63,7 @@ public class ImgSucsess : MonoBehaviour
             else
             {
                 letterPress = 0;
-                gameManager.Health = 3;
+                gameManager.Health = 0;
                 Debug.Log("sucsess word");
                 gameManager.Score += 1;
                
@@ -75,7 +75,7 @@ public class ImgSucsess : MonoBehaviour
         else
         {
             Debug.Log("Error");
-            gameManager.Health--;
+            gameManager.Health++;
         }
 
         //listsInList.dictWords.dictWord1.letters 

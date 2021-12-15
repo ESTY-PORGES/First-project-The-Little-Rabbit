@@ -65,7 +65,7 @@ public class ImgSucsess : MonoBehaviour
                 letterPress = 0;
                 gameManager.Health = 0;
                 Debug.Log("sucsess word");
-                gameManager.Score += 1;
+                gameManager.Score += 10;
                
                 indexSprite++;
                 picture.gameObject.GetComponent<Image>().sprite = spriteToChangeItTo[indexSprite];

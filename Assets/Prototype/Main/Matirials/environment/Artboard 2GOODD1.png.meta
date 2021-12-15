@@ -1,7 +1,10 @@
 fileFormatVersion: 2
-guid: 59fb5132575d27746bafd2f5ecc2db2b
+guid: 992f791ddb5598344b2f7145be82465e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4728138968599400675
+    second: Artboard 2GOODD1_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,7 +112,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Artboard 2GOODD1_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 115
+        width: 640
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f63f7a8a6426eb0800000000000000
+      internalID: -4728138968599400675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
